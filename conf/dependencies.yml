@@ -12,7 +12,7 @@ require:
 
     - com.google.guava -> guava 10.0.1
     - org.hibernate -> hibernate-validator 4.1.0.Final
-    - org.hibernate -> hibernate-core 3.6.8.Final:
+    - org.hibernate -> hibernate-core 4.1.0.Final:
         exclude:
             - ant -> ant * # not working: http://stackoverflow.com/questions/8563043/why-isnt-play-excluding-my-dependency
 
